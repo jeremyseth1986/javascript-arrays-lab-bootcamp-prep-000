@@ -7,4 +7,6 @@ return kittens.push(name);
   
 }
 
-function 
+function destructivelyPrependKitten(name) {
+  return kittens.unshift(name);
+}
